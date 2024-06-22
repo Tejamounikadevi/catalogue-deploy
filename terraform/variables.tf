@@ -22,3 +22,7 @@ variable "environment" {
 variable "zone_name" {
   default = "awsdevops.space"
 }
+
+variable app_version {
+  
+}
