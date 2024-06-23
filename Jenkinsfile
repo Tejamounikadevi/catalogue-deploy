@@ -6,7 +6,7 @@ pipeline {
     }
     // // environment { 
     // //     packageVersion = ''
-    // //     nexusURL = '172.31.41.128:8081'
+    // //     nexusURL = '172.31.39.82:8081'
     // }
     options {
         timeout(time: 1, unit: 'HOURS')
@@ -14,7 +14,7 @@ pipeline {
         ansiColor('xterm')
     }
     parameters {
-        string(name: 'version', defaultValue: '1.0.0', description: 'What is the artifact version?')
+        string(name: 'version', defaultValue: '1.2.0', description: 'What is the artifact version?')
         string(name: 'environment', defaultValue: 'dev', description: 'What is environment?')
     }
    // build
